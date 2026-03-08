@@ -1,5 +1,5 @@
 import requests
-response = requests.get("https://www.bankofbaku.com/az")
+response = requests.get("https://www.cbar.az/")
 response_text = response.text
 response_parse = response_text.split("<span>")
 for parse_elem_1 in response_parse :
